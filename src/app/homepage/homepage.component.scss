@@ -1,0 +1,43 @@
+.brand-name{
+    color: #00628B;
+    display: flex;
+    text-decoration: underline; 
+    margin-top: 15%;
+    margin-left: 18%;
+}
+div{
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    li {
+        float: left;
+      }
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      li a:hover {
+        background-color: #111;
+      }
+}
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+
+  .copyright{   
+    color: white;
+  }
+
+  .tag{
+    color: #00618bb3;
+  }
+}
